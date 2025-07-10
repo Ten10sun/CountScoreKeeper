@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Score Keeper</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+        <style>
+            .winner {
+                color: green;
+            }
+            .looser {
+                color: red;
+            }
+        </style>
+    </head>
+    <body>
+
+<section class="section">
+
+
+
+
+
+        <div class="container">
+            <div class="columns">
+                <div class="column is-half is-offset-one-quarter">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-4by3">
+                              <img src="https://media.istockphoto.com/id/1440683029/ja/%E3%82%B9%E3%83%88%E3%83%83%E3%82%AF%E3%83%95%E3%82%A9%E3%83%88/%E8%A3%8F%E5%BA%AD%E3%81%A7%E5%8D%93%E7%90%83%E3%82%92%E3%81%97%E3%81%AA%E3%81%8C%E3%82%89%E6%A5%BD%E3%81%97%E3%82%80%E5%B9%B8%E3%81%9B%E3%81%AA%E5%AE%B6%E6%97%8F.jpg?s=612x612&w=0&k=20&c=jUla0pyOvukFwWMPo5UsqtvPkAAfM5g5MyOBYWO-dw4=">
+                            </figure>
+                        <header class="card-header">
+                          <p class="card-header-title">
+                            卓球得点表
+                          </p>
+
+                        </header>
+                        <div class="card-content">        
+                            <div class="content">
+                              <h2 class="title is-1"><span id="p1Display"></span> 対 <span id="p2Display"></span></h2>
+                              <p class="subtitele">
+                                下のボタンを押して得点を管理しよう
+                              </p>
+
+                              <label for="" class="label is-large is-inline">何点先取？</label>
+                              <div id="selectDiv" class="select is-rounded">
+                              </div>
+                          </div>
+                        </div>
+                        <footer class="card-footer">
+                            <button id="p1Button" class="button is-primary is-large card-footer-item">+1 Player 1</button>
+                            <button id="p2Button" class="button is-info is-large card-footer-item">+1 Player 2</button>
+                            <button id="resetButton" class="button is-danger is-large card-footer-item">リセット</button>
+                        </footer>
+                      </div>
+                </div>
+            </div>
+
+        </div>
+
+    
+    </section>
+
+
+        <div class="contents-box-info">
+            <h2 class="conte"></h2>
+        
+        </div>
+
+
+        <script src="app.js"></script>
+    </body>
+</html>

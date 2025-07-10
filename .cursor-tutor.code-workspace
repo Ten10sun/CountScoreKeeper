@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../../../.cursor-tutor"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "CountScoreKeeper",
+		"liveServer.settings.port": 5501
+	}
+}
